@@ -1,0 +1,137 @@
+body{
+  margin-top: 0px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+header{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+nav ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  float:left;
+  border-right: 1px solid #bbb
+}
+
+nav li: last-child{
+  border-right: none;
+}
+
+nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  background-color: rgb(255, 212, 0);
+  color: black  ;
+}
+
+#titel{
+  padding: 0px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin: 0px;
+}
+
+.inleiding{
+    text-align: center;
+    font-style: normal;
+    border-radius:20px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgb(255, 212, 0);
+    border: 2px solid black;
+}
+#inleidinghome{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.section{
+  width: 49%;
+  float: left;
+  background-color: rgb(255, 212, 0);
+  border-radius:20px;
+  padding: 5px;
+  margin-top: 15px;
+  border:2px solid black;
+
+}
+
+.listicon{
+  padding-top: 20px;
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+}
+
+.sidepic{
+  width: 560px;
+  height: 560px;
+  margin: 0px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+
+}
+#imgtext{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+
+}
+
+.spagtext{
+  margin: auto;
+  text-align:center;
+  background-color: rgb(255, 212, 0);
+  width: 900px;
+  height: 560px;
+  display: flex;
+  justify-content: space-between;
+  border-radius:20px;
+  align-items: center;
+  border: 2px solid black;
+}
+
+aside.youtube{
+  width: 45%;
+  float: right;
+  text-align:center;
+  margin-top: 15px;
+  background-color: rgb(255, 212, 0);
+  border-radius:20px;
+  padding: 5px;
+  border: 2px solid black;
+}
+#film1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#film2{
+  margin-bottom: 20px;
+}
+
+.jumbo:link{
+  text-decoration: none;
+  color: black;
+}
+
+.jumbo:hover {
+    color: rgb(255,168,13);
